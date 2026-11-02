@@ -72,17 +72,6 @@ src/
 └── main.jsx                    # Entry point
 ```
 
-## Trang đã xây dựng (Bước 1)
-
-| Route | Trang | Trạng thái |
-|-------|-------|-----------|
-| `/admin/login` | Đăng nhập | ✅ Hoàn chỉnh |
-| `/admin` | Dashboard | ✅ Hoàn chỉnh (charts, stats, recent orders) |
-| `/admin/users` | Người dùng | ✅ Hoàn chỉnh (search, filter, modal, confirm) |
-| `/admin/courses` | Khóa học | ✅ Hoàn chỉnh |
-| `/admin/orders` | Đơn hàng | ✅ Hoàn chỉnh |
-| Các trang còn lại | — | 🚧 Placeholder |
-
 ## Tech Stack
 
 - **React 18** + **Vite 6**
@@ -91,7 +80,3 @@ src/
 - **lucide-react** — icons
 - **Recharts** — charts (Dashboard)
 - **Font**: Inter (Google Fonts)
-
-## Dark Mode
-
-Click biểu tượng 🌙/☀️ trên Topbar để chuyển dark/light mode. Trạng thái được lưu vào `localStorage`.
